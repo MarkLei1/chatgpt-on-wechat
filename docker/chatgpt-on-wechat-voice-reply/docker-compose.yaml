@@ -7,9 +7,9 @@ services:
     image: zhayujie/chatgpt-on-wechat-voice-reply
     container_name: chatgpt-on-wechat-voice-reply
     environment:
-      OPEN_AI_API_KEY: 'YOUR API KEY'
+      OPEN_AI_API_KEY: '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'
       OPEN_AI_PROXY: ''
-      SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
+      SINGLE_CHAT_PREFIX: '[""]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
       GROUP_CHAT_PREFIX: '["@bot"]'
       GROUP_NAME_WHITE_LIST: '["ChatGPT测试群", "ChatGPT测试群2"]'
